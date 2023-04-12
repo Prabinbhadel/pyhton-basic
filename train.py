@@ -25,7 +25,7 @@ class train:
     def cancelTicket(self):
         a=int(input("enter the ticket you want to cancel"))
         self.seats.append(a)
-        print(f"you have cancelled you ticked no{a}")
+        print(f"you have cancelled your ticket no{a}")
 
         
 
